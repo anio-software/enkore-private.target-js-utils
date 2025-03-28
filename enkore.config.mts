@@ -8,16 +8,7 @@ export default defineConfig({
 			runtime: "node",
 			createTypesPackage: {
 				orgName: "@enkore-types"
-			},
-			externalPackages: [
-				"rollup",
-				"@rollup/plugin-virtual",
-				"@rollup/plugin-node-resolve",
-				"@rollup/plugin-commonjs",
-				"@rollup/plugin-terser",
-				"@aniojs/node-ts-utils",
-				"rollup-plugin-dts"
-			]
+			}
 		})
 	}
 })
