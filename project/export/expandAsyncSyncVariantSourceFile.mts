@@ -1,6 +1,6 @@
 import fs from "node:fs"
 
-import {_expandAsyncSyncVariantSourceCodeFromString} from "./_expandAsyncSyncVariantSourceCodeFromString.mts"
+import {expandAsyncSyncVariantSourceCodeFromString} from "#~src/expandAsyncSyncVariantSourceCodeFromString.mts"
 
 export function expandAsyncSyncVariantSourceFile(
 	sourcePath: string,
@@ -8,7 +8,7 @@ export function expandAsyncSyncVariantSourceFile(
 ): string {
 	const contents = fs.readFileSync(sourcePath).toString()
 
-	return _expandAsyncSyncVariantSourceCodeFromString(
+	return expandAsyncSyncVariantSourceCodeFromString(
 		contents, variant, sourcePath
 	)
 }
