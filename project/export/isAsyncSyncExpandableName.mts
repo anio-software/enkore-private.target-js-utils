@@ -1,5 +1,3 @@
-export function isAsyncSyncExpandableName(
-	name: string
-) : boolean {
+export function isAsyncSyncExpandableName(name: string): boolean {
 	return name.includes("XXX")
 }

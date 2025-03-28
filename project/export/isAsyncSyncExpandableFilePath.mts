@@ -1,9 +1,7 @@
 import path from "node:path"
 import {isAsyncSyncExpandableName} from "./isAsyncSyncExpandableName.mts"
 
-export function isAsyncSyncExpandableFilePath(
-	filePath: string
-) : boolean {
+export function isAsyncSyncExpandableFilePath(filePath: string): boolean {
 	const fileName = path.basename(filePath)
 
 	if (!fileName.startsWith("__")) return false
