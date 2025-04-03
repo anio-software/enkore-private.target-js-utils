@@ -4,12 +4,6 @@
   "author": "Anio Software <info@anio.software>",
   "description": "Utilities shared between js targets.",
   "license": "MIT",
-  "exports": {
-    ".": {
-      "types": "./dist/default/index.d.mts",
-      "default": "./dist/default/index.mjs"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enkore-org/target-js-utils.git"
