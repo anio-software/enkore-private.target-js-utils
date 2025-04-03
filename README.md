@@ -1,2 +1,1 @@
-# @enkore/realm-js-and-web-utils
-
+# @enkore/target-js-utils
