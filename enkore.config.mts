@@ -1,14 +1,10 @@
 import {defineConfig} from "enkore"
-import {defineRealmConfig} from "@enkore/realm-js"
+import {defineTargetConfig} from "@enkore-target/js-node"
 
 export default defineConfig({
-	realm: {
-		name: "js",
-		config: defineRealmConfig({
-			runtime: "node",
-			createTypesPackage: {
-				orgName: "@enkore-types"
-			}
-		})
-	}
+	target: defineTargetConfig({
+		createTypesPackage: {
+			orgName: "@enkore-types"
+		}
+	})
 })
