@@ -1,1 +1,1 @@
-# @enkore/target-js-utils
+# @anio-software/enkore-private.target-js-utils

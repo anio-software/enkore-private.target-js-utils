@@ -1,5 +1,5 @@
 {
-  "name": "@enkore/target-js-utils",
+  "name": "@anio-software/enkore-private.target-js-utils",
   "version": "0.0.4",
   "author": "Anio Software <info@anio.software>",
   "description": "Utilities shared between js targets.",
