@@ -7,7 +7,7 @@ export function isAsyncSyncExpandableFilePath(filePath: string): boolean {
 	if (!fileName.startsWith("__")) return false
 	if (!isAsyncSyncExpandableName(fileName)) return false
 
-	if (fileName.endsWith(".as.mts")) return true
+	if (fileName.endsWith(".as.ts")) return true
 
 	return false
 }

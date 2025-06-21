@@ -16,13 +16,13 @@ export function expandAsyncSyncVariantFilePath(
 	// remove __
 	let fileName = path.basename(filePath).slice(2)
 
-	// remove .as.mts
-	fileName = fileName.slice(0, -(`.as.mts`.length))
+	// remove .as.ts
+	fileName = fileName.slice(0, -(`.as.ts`.length))
 
 	const [asyncFileName, syncFileName] = expandAsyncSyncVariantName(fileName)
 
 	return [
-		path.join(baseDir, `${asyncFileName}.mts`),
-		path.join(baseDir, `${syncFileName}.mts`)
+		path.join(baseDir, `${asyncFileName}.ts`),
+		path.join(baseDir, `${syncFileName}.ts`)
 	]
 }

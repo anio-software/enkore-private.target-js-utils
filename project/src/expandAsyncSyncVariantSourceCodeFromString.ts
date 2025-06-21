@@ -46,7 +46,7 @@ export function expandAsyncSyncVariantSourceCodeFromString(
 
 	const fileName = path.basename(
 		variant === "async" ? asyncFilePath : syncFilePath
-	).slice(0, -(`.as.mts`.length))
+	).slice(0, -(`.as.ts`.length))
 
 	return output.join("\n").split("__XX__").join(fileName)
 }
