@@ -11,10 +11,5 @@
   "type": "module",
   "files": [
     "./dist/"
-  ],
-  "devDependencies": {
-    "@enkore-target/js-node": "^0.0.1",
-    "@enkore/core": "^0.6.4",
-    "enkore": "^0.0.16"
-  }
+  ]
 }
