@@ -1,6 +1,6 @@
 import path from "node:path"
-import {isAsyncSyncExpandableFilePath} from "./isAsyncSyncExpandableFilePath.mts"
-import {expandAsyncSyncVariantName} from "./expandAsyncSyncVariantName.mts"
+import {isAsyncSyncExpandableFilePath} from "./isAsyncSyncExpandableFilePath.ts"
+import {expandAsyncSyncVariantName} from "./expandAsyncSyncVariantName.ts"
 
 export function expandAsyncSyncVariantFilePath(
 	filePath: string

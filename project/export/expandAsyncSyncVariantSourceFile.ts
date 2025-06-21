@@ -1,6 +1,6 @@
 import fs from "node:fs"
 
-import {expandAsyncSyncVariantSourceCodeFromString} from "#~src/expandAsyncSyncVariantSourceCodeFromString.mts"
+import {expandAsyncSyncVariantSourceCodeFromString} from "#~src/expandAsyncSyncVariantSourceCodeFromString.ts"
 
 export function expandAsyncSyncVariantSourceFile(
 	sourcePath: string,

@@ -1,4 +1,4 @@
-import {isAsyncSyncExpandableName} from "./isAsyncSyncExpandableName.mts"
+import {isAsyncSyncExpandableName} from "./isAsyncSyncExpandableName.ts"
 
 export function expandAsyncSyncVariantName(
 	name: string

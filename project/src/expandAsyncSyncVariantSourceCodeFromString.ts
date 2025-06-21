@@ -1,5 +1,5 @@
 import path from "node:path"
-import {expandAsyncSyncVariantFilePath} from "#~export/expandAsyncSyncVariantFilePath.mts"
+import {expandAsyncSyncVariantFilePath} from "#~export/expandAsyncSyncVariantFilePath.ts"
 
 export function expandAsyncSyncVariantSourceCodeFromString(
 	source: string,

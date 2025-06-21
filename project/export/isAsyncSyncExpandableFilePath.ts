@@ -1,5 +1,5 @@
 import path from "node:path"
-import {isAsyncSyncExpandableName} from "./isAsyncSyncExpandableName.mts"
+import {isAsyncSyncExpandableName} from "./isAsyncSyncExpandableName.ts"
 
 export function isAsyncSyncExpandableFilePath(filePath: string): boolean {
 	const fileName = path.basename(filePath)
