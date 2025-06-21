@@ -1,20 +1,20 @@
 {
+  "type": "module",
   "name": "@anio-software/enkore-private.target-js-utils",
   "version": "0.0.4",
-  "author": "Anio Software <info@anio.software>",
   "description": "Utilities shared between js targets.",
-  "license": "MIT",
+  "author": "Anio Software <info@anio.software>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enkore-org/target-js-utils.git"
   },
-  "type": "module",
-  "files": [
-    "./dist/"
-  ],
+  "license": "MIT",
   "devDependencies": {
     "@anio-software/enkore": "^0.0.75",
     "@anio-software/enkore.core": "^0.11.2",
     "@anio-software/enkore.target-js": "^0.0.32-canary-1523bb9b-5a487b6a"
-  }
+  },
+  "files": [
+    "./dist/"
+  ]
 }
