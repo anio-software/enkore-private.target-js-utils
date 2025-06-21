@@ -1,4 +1,5 @@
 {
+  "private": true,
   "type": "module",
   "name": "@anio-software/enkore-private.target-js-utils",
   "version": "0.0.4",
