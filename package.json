@@ -7,7 +7,7 @@
   "author": "Anio Software <info@anio.software>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enkore-org/target-js-utils.git"
+    "url": "git+https://github.com/anio-software/enkore-private.target-js-utils.git"
   },
   "license": "MIT",
   "devDependencies": {
