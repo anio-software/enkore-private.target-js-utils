@@ -1,11 +1,10 @@
 import {defineConfig} from "@anio-software/enkore"
-import {defineTargetJSConfig} from "@anio-software/enkore.target-js"
+import {defineTargetConfig} from "@anio-software/enkore.target-js-node"
 
-export default defineConfig({
+export const config: unknown = defineConfig({
 	target: {
-		name: "js",
-		options: defineTargetJSConfig({
-			environment: ["node"],
+		name: "js-node",
+		options: defineTargetConfig({
 
 			registry: {
 				"anioSoftware": {
