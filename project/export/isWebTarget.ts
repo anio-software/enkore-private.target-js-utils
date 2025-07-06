@@ -1,13 +1,13 @@
 import type {TargetIdentifier} from "@anio-software/enkore-private.spec/primitives"
 
-export function isWebTarget(target: TargetIdentifier): boolean {
-	if (target === "js-web"         ||
-	    target === "js-hybrid"      ||
-	    target === "js-hybrid-lite" ||
-	    target === "jsx-web"        ||
-	    target === "jsx-hybrid"   ) {
-		return true
-	}
+const webTargets = [
+	"js-web",
+	"js-hybrid",
+	"js-hybrid-lite",
+	"jsx-web",
+	"jsx-hybrid"
+]
 
-	return false
+export function isWebTarget(target: TargetIdentifier): boolean {
+	return webTargets.includes(target)
 }
