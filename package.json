@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "@anio-software/enkore-private.target-js-utils",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Utilities shared between js targets.",
   "author": "Anio Software <info@anio.software>",
   "repository": {
