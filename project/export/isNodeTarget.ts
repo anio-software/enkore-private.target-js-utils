@@ -1,13 +1,13 @@
 import type {TargetIdentifier} from "@anio-software/enkore-private.spec/primitives"
 
-export function isNodeTarget(target: TargetIdentifier): boolean {
-	if (target === "js-node"        ||
-	    target === "js-hybrid"      ||
-	    target === "js-hybrid-lite" ||
-//	    target === "jsx-node"       ||
-	    target === "jsx-hybrid"   ) {
-		return true
-	}
+const nodeTargets = [
+	"js-node",
+	"js-hybrid",
+	"js-hybrid-lite",
+//	"jsx-node",
+	"jsx-hybrid"
+]
 
-	return false
+export function isNodeTarget(target: TargetIdentifier): boolean {
+	return nodeTargets.includes(target)
 }
